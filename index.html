@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html>
+  
+  <head>
+    <title>Eduvis Log Analysis</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <script src="./src/d3.min.js"></script>
+    <script src="./src/jquery-3.1.1.min.js"></script>
+    <script src="./src/jquery.adcHighlight.js"></script>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  
+  <body>
+
+    <div id="imgLoading"></div>
+    
+    <div id="header">
+    	<text style="cursor: pointer;" onClick="window.location.reload()">AnnoVis - visualization of 1189 annotation paths</text>
+    	<img src="img/menu_32.png" alt="menu" id="imgMenu">
+    </div>
+
+    <div id="whiteLine"></div>
+    
+    <div id="menu"></div>
+
+    <div id="tableFilterMenu" class = "filterMenu"></div>
+    <div id="columnFilterMenu" class = "filterMenu"></div>
+  
+    <div id="divForPaths">
+      <table id="tableForPaths">
+      </table>
+    </div>
+
+    <div id="showFullText">
+    	<text>
+    	<text>
+    </div>
+  </body>
+  
+  <script src="scripts/index.js" type="module"></script>
+
+</html>
